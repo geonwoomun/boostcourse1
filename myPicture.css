@@ -42,49 +42,31 @@ li a {
 li a:hover {
     background-color : #111111;
 }
-
-.intro{
-    height : 30%;
-    padding : 10px;
-    text-align: center;
-    background-color: #f1f1f1;
+div {
+    border: 30px solid #f1f1f1; 
+    margin: 0;
 }
-h3{
-    margin:0;
-}
-p{
-    margin-bottom: 0;
-}
-#div1 {
-  display: flex;
-  justify-content: center;
-  margin :0;
-  width:100%;
-  padding: 30px;
-  background-color: #f1f1f1;
+div > *{
+    margin : 0;
 }
 img{
-    float:left;
-    margin-right: 10px;
-    box-shadow: 1px 1px gray;
+    transform: rotate(5deg);
+    background-color: #777;
 }
-#div2 {
-    display: flex;
-    justify-content: center;
-    width:100%;
-    padding: 30px;
-    background-color: #f1f1f1;
-    height: 30%;
-  }
+p{
+  position: relative;
+  left:300px;
+  bottom : 250px;
+}
 footer{
     bottom:0;
+    border-bottom-left-radius : 5px;
+    border-bottom-right-radius : 5px;
     background-color: #777;
     padding:0.5%;
     margin:0;
 }
  footer >* {
-  border-bottom-left-radius : 5px;
-  border-bottom-right-radius : 5px;
     text-align: center;
     color: white;
     display : block;

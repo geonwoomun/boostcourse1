@@ -8,9 +8,9 @@
 
 header {
     height: 20%;
+    background-color: #111111;
     border-top-left-radius : 5px;
     border-top-right-radius : 5px;
-    background-color: #111111;
     padding: 10px;
     text-align: center;
     font-size: 20px;
@@ -43,48 +43,24 @@ li a:hover {
     background-color : #111111;
 }
 
-.intro{
-    height : 30%;
-    padding : 10px;
-    text-align: center;
-    background-color: #f1f1f1;
-}
-h3{
-    margin:0;
-}
-p{
-    margin-bottom: 0;
-}
-#div1 {
-  display: flex;
-  justify-content: center;
-  margin :0;
-  width:100%;
-  padding: 30px;
-  background-color: #f1f1f1;
-}
-img{
-    float:left;
-    margin-right: 10px;
-    box-shadow: 1px 1px gray;
-}
-#div2 {
-    display: flex;
-    justify-content: center;
+.introduce{
     width:100%;
     padding: 30px;
     background-color: #f1f1f1;
-    height: 30%;
-  }
+}
+
+div{
+    padding : 20px;
+}
 footer{
     bottom:0;
+    border-bottom-left-radius : 5px;
+    border-bottom-right-radius : 5px;
     background-color: #777;
     padding:0.5%;
     margin:0;
 }
  footer >* {
-  border-bottom-left-radius : 5px;
-  border-bottom-right-radius : 5px;
     text-align: center;
     color: white;
     display : block;
